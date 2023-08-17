@@ -1,0 +1,109 @@
+ body {
+
+            margin: 0;
+
+        }
+
+        .openAnimalPopupButton {
+
+            padding: 10px 20px;
+
+            font-size: 16px;
+
+            cursor: pointer;
+
+        }
+
+        #animalPopupContainer {
+
+            display: none;
+
+            position: fixed;
+
+            top: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 100%;
+
+            background-color: rgba(0, 0, 0, 0.8);
+
+            z-index: 999;
+
+        }
+
+        .animalPopupContent {
+
+            position: absolute;
+
+            top: 5%;
+
+            left: 5%;
+
+            width: 90%;
+
+            height: 90%;
+
+            background-color: #fff;
+
+            border: 2px solid black;
+
+            border-radius: 10px;
+
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+            overflow: hidden;
+
+        }
+
+        .animalPopupHeader {
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            padding: 10px 0;
+
+            background-color: #f5f5f5;
+
+            border-top-left-radius: 10px;
+
+            border-top-right-radius: 10px;
+
+        }
+
+        .animalPopupReload {
+
+            font-size: 20px;
+
+            cursor: pointer;
+
+        }
+
+        .animalPopupClose {
+
+            position: absolute;
+
+            top: 10px;
+
+            right: 10px;
+
+            font-size: 20px;
+
+            cursor: pointer;
+
+        }
+
+        .animalWebsiteFrame {
+
+            width: 100%;
+
+            height: calc(100% - 40px); /* Adjusted for the header and border */
+
+            border: none;
+
+        }
