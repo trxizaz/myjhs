@@ -1,0 +1,30 @@
+ .follow-button {
+      display: inline-block;
+      padding: 10px 30px;
+      background-color: #00a859;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+      text-decoration: none;
+      position: relative;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .follow-button:hover {
+      background-color: #008749;
+    }
+
+    .fb-icon {
+      position: absolute;
+      left: 4%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 20px;
+    }
+
+    .button-text {
+      padding-left: 7px;
+    }
