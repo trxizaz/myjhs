@@ -1,0 +1,24 @@
+.frames {
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  animation: glow 2s infinite alternate;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+@keyframes glow {
+  from {
+    border-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  to {
+    border-color: #ff9900;
+    box-shadow: 0 0 20px #ff9900, 0 0 40px #ff9900, 0 0 80px #ff9900;
+  }
+}
