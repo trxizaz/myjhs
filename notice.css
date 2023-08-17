@@ -1,0 +1,67 @@
+/* Reset default margin and padding */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+/* Style for the notice board container */
+
+.notice-board {
+
+  background-color: #f2f2f2;
+
+  border: 2px solid #dcdcdc;
+
+  padding: 30px; /* Increase padding for top and bottom */
+
+  margin: 15px; /* Add margin for all sides */
+
+  max-width: 400px;
+
+  border-radius: 8px;
+
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+  
+
+  /* Increase overall height */
+
+  height: auto;
+
+}
+
+/* Style for individual notice */
+
+.notice {
+
+  border-bottom: 1px solid #dcdcdc;
+
+  padding: 10px 0;
+
+}
+
+/* Style for the notice title */
+
+.notice-title {
+
+  font-size: 20px;
+
+  color: #333;
+
+}
+
+/* Style for the notice content */
+
+.notice-content {
+
+  font-size: 16px;
+
+  color: #666;
+
+}
